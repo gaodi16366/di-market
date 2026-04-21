@@ -1,0 +1,24 @@
+{
+  "name": "di-market",
+  "owner": {
+    "name": "gaodi16366",
+    "email": "gaodi16366@gmail.com"
+  },
+  "metadata": {
+    "description": "A community marketplace for Claude Code plugins",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "skill-creator",
+      "description": "Create new skills, modify and improve existing skills, and measure skill performance",
+      "author": "Anthropic, PBC",
+      "homepage": "https://github.com/anthropics/skills/tree/b9e19e6f44773509fbdd7001d77ff41a49a486c1/skills/skill-creator",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/skill-creator"
+      ]
+    }
+  ]
+}
