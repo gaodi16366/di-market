@@ -37,11 +37,12 @@ Each entry in `plugins[]`:
 | `source`     | Yes      | Where to fetch the plugin (see sources below) |
 | `description`| No       | Brief description |
 | `version`    | No       | Semver string |
-| `author`     | No       | `{ "name": "...", "email": "..." }` |
+| `author`     | No       | `{ "name": "...", "email": "..." }` — `name` required, `email` optional |
 | `homepage`   | No       | Documentation or source URL |
 | `repository` | No       | Source code URL |
 | `license`    | No       | SPDX identifier e.g. `Apache-2.0`, `MIT` |
 | `keywords`   | No       | Array of strings |
+| `tags`       | No       | Array of strings for searchability |
 | `category`   | No       | String for organization |
 | `strict`     | No       | Boolean (default `true`). If `false`, marketplace entry is the full definition — plugin must not have a `plugin.json` declaring components |
 | `skills`     | No       | Path(s) to skill directories containing `<name>/SKILL.md` |
