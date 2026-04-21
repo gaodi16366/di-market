@@ -12,7 +12,7 @@
     {
       "name": "skill-creator",
       "description": "Create new skills, modify and improve existing skills, and measure skill performance",
-      "author": "Anthropic, PBC",
+      "author": { "name": "Anthropic, PBC" },
       "homepage": "https://github.com/anthropics/skills/tree/b9e19e6f44773509fbdd7001d77ff41a49a486c1/skills/skill-creator",
       "source": "./",
       "strict": false,
