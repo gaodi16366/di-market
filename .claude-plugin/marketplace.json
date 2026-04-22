@@ -19,6 +19,17 @@
       "skills": [
         "./skills/skill-creator"
       ]
+    },
+    {
+      "name": "atlassian",
+      "description": "Connect to Atlassian products including Jira and Confluence. Search and create issues, access documentation, manage sprints, and integrate your development workflow with Atlassian's collaboration tools.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/atlassian/atlassian-mcp-server.git",
+        "sha": "9b52fb18e184edc307ce33f8bf4cdf148dedf1f2"
+      },
+      "homepage": "https://github.com/atlassian/atlassian-mcp-server"
     }
   ]
 }
