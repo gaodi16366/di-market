@@ -21,6 +21,16 @@
       ]
     },
     {
+      "name": "anthropic-agent-skills",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/anthropics/skills",
+        "sha": "2c7ec5e78b8e5d43ea02e90bb8826f6b9f147b0c"
+      },
+      "author": { "name": "Anthropic, PBC" },
+      "homepage": "https://github.com/anthropics/skills"
+    },
+    {
       "name": "atlassian",
       "description": "Connect to Atlassian products including Jira and Confluence. Search and create issues, access documentation, manage sprints, and integrate your development workflow with Atlassian's collaboration tools.",
       "category": "productivity",
