@@ -1,11 +1,11 @@
 {
-  "name": "di-private-market",
+  "name": "di-market",
   "owner": {
     "name": "gaodi16366",
     "email": "gaodi16366@gmail.com"
   },
   "metadata": {
-    "description": "A private marketplace for Claude Code plugins",
+    "description": "A community marketplace for Claude Code plugins",
     "version": "1.0.0"
   },
   "plugins": [
