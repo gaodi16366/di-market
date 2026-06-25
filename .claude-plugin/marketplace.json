@@ -12,15 +12,18 @@
     {
       "name": "superpowers-tdd",
       "description": "Drive development using Test-Driven Development (TDD) — red-green-refactor cycles, writing failing tests first, then implementing minimum code to pass.",
-      "author": { "name": "gaodi16366", "email": "gaodi16366@gmail.com" },
+      "author": { "name": "Jesse Vincent", "email": "jesse@keyboard.io" },
+      "homepage": "https://github.com/obra/superpowers",
       "license": "MIT",
       "keywords": ["tdd", "testing", "test-driven-development", "red-green-refactor"],
       "category": "development",
-      "source": "./",
-      "strict": false,
-      "skills": [
-        "./skills/superpowers-tdd"
-      ]
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/obra/superpowers.git",
+        "path": "skills/test-driven-development",
+        "ref": "main",
+        "sha": "896224c4b1879920ab573417e68fd51d2ccc9072"
+      }
     },
     {
       "name": "skill-creator",
